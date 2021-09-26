@@ -1,0 +1,53 @@
+*{
+    background: black;
+}
+
+#clock{
+    position: relative;
+    margin: auto;
+    top: 10vh;
+    width: 50vw;
+    height: 50vw;
+    background: url(img/1597666322598.jpg) no-repeat;
+    background-size: 100%;
+    /* border: 2px solid red; */
+}
+
+#hourHand{
+    position: absolute;
+    background-color: black;
+    width: 1vw;
+    height: 8vw;
+    top: 17.5vw;
+    left: 24.5vw;
+    border-radius: 10px;
+    opacity: 0.9;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
+#minuteHand{
+    position: absolute;
+    background-color: navy;
+    width: 0.8vw;
+    height: 11vw;
+    top: 14.3vw;
+    left: 24.6vw;
+    border-radius: 10px;
+    opacity: 0.8;
+    transform-origin: bottom;
+    /* display: none; */
+}
+
+#secondHand{
+    position: absolute;
+    background-color: red;
+    width: 0.6vw;
+    height: 14vw;
+    top: 11.3vw;
+    left: 24.7vw;
+    border-radius: 10px;
+    opacity: 0.8;
+    transform-origin: bottom;
+    /* display: none; */
+}
